@@ -1,0 +1,42 @@
+# Editors
+.vscode
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Dependency directory
+node_modules
+
+# Code coverage
+coverage
+
+# Yarn files
+yarn-error.log*
+
+# temp files
+*.tmp
+
+# Prod
+/dist
+
+# Terraform files
+.terraform
+tfplan
+terraform.tfstate
+terraform.tfstate.backup
+
+# Helm
+charts/
+.helm.options
+
+# Env file
+*.env
+
+# Log files
+*.log
+
+# Test files
+junit.xml
